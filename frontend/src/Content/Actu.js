@@ -12,7 +12,18 @@ export default class Actu extends React.Component {
         return(
             
             <Container fluid className="championFond">
-                <Nav/>
+                <Row>
+                    <Nav/>
+                </Row>
+                <Row className="separer"></Row>
+                <Row>
+                    <Col  className="mesActus" xs={5}>
+                    ici
+                    </Col>
+                    <Col className="mesActus" xs={5}>
+                    la
+                    </Col>
+                </Row>
             </Container>
         );
     }

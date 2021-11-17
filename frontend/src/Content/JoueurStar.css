@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Poppins-light;
+    src: url("../polices/Poppins-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: Poppins-regular;
+    src: url("../polices/Poppins-Regular.ttf");
+  }
+
+.sort{
+    background-color: rgb(0, 0, 0);
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.2vw;
+}
+
+.sort:hover{
+    box-shadow: 0.2vw 0.2vw 0.2vw white;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.nomJoueur{
+    line-height: 1.3vw;
+    font-size: 1.2vw;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    position: relative;
+    font-family: Poppins-regular;
+}
+
+.mesStats{
+    line-height: 2.0vw;
+    font-size: 1.0vw;
+    margin-left: 10%;
+    position: relative;
+    font-family: Poppins-regular;
+}
+
+.stats{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1.0vw;
+    font-family: Poppins-regular;
+}
+
+.espace{
+    padding: 5%;
+}

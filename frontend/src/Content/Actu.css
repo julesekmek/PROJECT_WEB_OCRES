@@ -2,6 +2,23 @@
     background-image: url("../images/NbaTrophyBackground.png");
     background-color: black;
     background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: top left;
+    font-size: 1.8vw;
     height: 150vh;
+}
+
+.mesActus{
+    
+    position: relative;
+    margin-top: 50%;
+    width: 90%;
+    margin-left: 5%;
+    height: 30vh;
+    background-color: turquoise;
+}
+
+.separer{
+    margin : 10%;
 }
