@@ -1,0 +1,7 @@
+.championFond{
+    background-image: url("../images/NbaTrophyBackground.png");
+    background-color: black;
+    background-size: cover;
+    background-position: top left;
+    height: 150vh;
+}

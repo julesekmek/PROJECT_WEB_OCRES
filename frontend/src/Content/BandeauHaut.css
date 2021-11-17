@@ -1,0 +1,27 @@
+.nav{
+    /*background-color: rgb(106, 30, 106);*/
+    height: 6vh;
+    padding-top: 10px;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-top: 2vh;
+    max-height: 5vh;
+}
+
+.titreNav{
+    font-size: 1.3em;
+    margin-left: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 3vh;
+}
+
+.titreNav:hover{
+    font-size: 1.5em;
+    transition-duration: 0.7s;
+    margin-top: 3vh;
+    margin-left: 8%;
+    color: white;
+}

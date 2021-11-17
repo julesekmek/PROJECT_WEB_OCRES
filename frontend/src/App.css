@@ -1,5 +1,18 @@
+@font-face {
+  font-family: Poppins-light;
+  src: url("./polices/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins-regular;
+  src: url("./polices/Poppins-Regular.ttf");
+}
+
 .App {
   text-align: center;
+  font-family: Poppins-light;    
+  background-color: black;
+  color: blanchedalmond;
 }
 
 .App-logo {

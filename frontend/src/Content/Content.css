@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Poppins-black;
+    src: url("../polices/Poppins-Black.ttf");
+}
+
+.kobefond{
+    background-image: url("../images/Kobe.png");
+    background-size: cover;
+    background-color: black;
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.Hero{
+    text-align: left;
+}
+
+.NBAtitre{
+    font-family: Poppins-black;
+    position: relative;
+    margin-top: 50%;
+    font-size: 4.8vw;
+    color: blanchedalmond;
+}
+
+.Stattitre{
+    font-family: Poppins-black;
+    font-size: 4.8vw;
+    color: rgb(150, 43, 150);
+}
+
+.description{
+    color: blanchedalmond;
+    font-size: 1.3vw;
+}
+
+.image{
+    width: 100%;
+    position: absolute;
+}
+
+.separer{
+    margin : 10%;
+}
+
+.players{
+    height: 50vh;
+}
+
+.Giannis{
+    background-image: url("../images/Giannis.png");
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Luka{
+    background-image: url("../images/Luka.png");
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Lillard{
+    background-image: url("../images/Lillard.png");
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Stephen{
+    background-image: url("../images/Stephen.png");
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
