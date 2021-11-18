@@ -2,6 +2,8 @@ import React from 'react';
 import './Content.css';
 import Nav from './BandeauHaut';
 import JoueurStar from './JoueurStar';
+import axios from "axios";
+
 
 import Giannis from '../images/Giannis.png';
 import Lillard from '../images/Lillard.png';
@@ -13,12 +15,41 @@ import {Container} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 
 export default class Content extends React.Component {
-    
+    constructor(props){
+    super(props)
+    this.state={
+        giannis:[]
+                      }
+              }
+async componentDidMount() {
+    const url = " https://www.balldontlie.io/api/v1/players/15"
+    let result = null;
+    try{
+            result = await axios(url, {
+            headers: {
+            Accept: "application/json"
+                    }
+                                       })
+    } catch(e) {
+            console.log(e)
+                }
+            this.setState({giannis: result.data})
+                            }
+
+
     render() {
+
+        const{giannis} = this.state;
+        console.log({giannis})
+        var Giannis_name = giannis.first_name
+        var Giannis_lastname = giannis.last_name
+        var Giannis_heigh = giannis.height_inches
+        console.log({giannis})
+
         let Joueurs= [{
-            nom : 'ANTETOKOUMPO',
-            prenom : 'Giannis',
-            points : 29.5,
+            nom : Giannis_name,
+            prenom : Giannis_lastname,
+            points : Giannis_heigh,
             rebonds : 11.5,
             passed : 6.5
         },
@@ -105,3 +136,10 @@ export default class Content extends React.Component {
         );
     }
 }
+
+
+
+
+
+
+  
