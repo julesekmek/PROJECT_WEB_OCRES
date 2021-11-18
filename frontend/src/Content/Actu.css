@@ -5,7 +5,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top left;
-    font-size: 1.8vw;
     height: 150vh;
 }
 
@@ -13,12 +12,31 @@
     
     position: relative;
     margin-top: 50%;
-    width: 90%;
-    margin-left: 5%;
-    height: 30vh;
-    background-color: turquoise;
+    width: 96%;
+    margin-left: 2%;
 }
 
 .separer{
     margin : 10%;
+}
+
+.separer2{
+    margin : 5%;
+}
+
+.monTableau{
+    height: 70%;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-width: 0.2vw;
+    text-align: center;
+    margin-left: 5%;
+    width: 95%;
+}
+
+.classement{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 1%;
+    text-align: center;
 }
